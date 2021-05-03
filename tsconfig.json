@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "src/*": ["./src/*"],
+            "@app/*": ["./src/app/*"],
+            "@config": ["./src/config/"],
+            "@modules/*": ["./src/modules/*"],
+            "@util/*": ["./src/util/*"]
+        },
+        "module": "commonjs",
+        "declaration": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es2017",
+        "lib": ["es2019"],
+        "sourceMap": true,
+        "outDir": "./dist",
+        "incremental": true
+    },
+    "exclude": ["globalSetup.ts"]
+}
